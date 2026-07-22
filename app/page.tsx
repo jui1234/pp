@@ -2,7 +2,9 @@
 import Button from "@/src/components/Button/page";
 import Image from "next/image";
 import { useState } from "react";
-import About from "./about.tsx/page";
+import dynamic from "next/dynamic";
+import About from "./about/page";
+
 
 
 export default function Home() {
