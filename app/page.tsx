@@ -2,6 +2,7 @@
 import Button from "@/src/components/Button/page";
 import Image from "next/image";
 import { useState } from "react";
+import About from "./about.tsx/page";
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       setCount(count + 1)
     }} />
 
-    <div>{count}</div>
+    <About count={count} setCount={setCount} />
     </div>
   );
 }
