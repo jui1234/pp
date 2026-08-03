@@ -2,6 +2,7 @@
 
 import FunctionalComponent from "./functionalComponent/page";
 import Welcome from "./ClassComponent/page";
+import ParentComponent from "./PropsAndState/ParentComponent/page";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <div>
       <FunctionalComponent />
       <Welcome />
+      <ParentComponent />
     </div>
   );
 }
