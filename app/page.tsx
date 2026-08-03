@@ -3,6 +3,7 @@
 import FunctionalComponent from "./functionalComponent/page";
 import Welcome from "./ClassComponent/page";
 import ParentComponent from "./PropsAndState/ParentComponent/page";
+import StateComponent from "./StateComponent/page";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <FunctionalComponent />
       <Welcome />
       <ParentComponent />
+      <StateComponent />
     </div>
   );
 }
