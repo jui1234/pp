@@ -1,4 +1,7 @@
 "use client";
+
+import AgeComponent from "./extra/age";
+
 function ConditionRendering() {
     let isUserLoggedIn = false;
     return(
@@ -8,7 +11,9 @@ function ConditionRendering() {
         ) : (
             <h1>User is Not Logged In</h1>
         )}
+        <AgeComponent />
         </>
+
     );
     }
     export default ConditionRendering;
