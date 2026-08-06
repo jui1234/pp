@@ -4,6 +4,7 @@ import FunctionalComponent from "./functionalComponent/page";
 import Welcome from "./ClassComponent/page";
 import ParentComponent from "./PropsAndState/ParentComponent/page";
 import StateComponent from "./StateComponent/page";
+import ConditionRendering from "./ConditionRendering/page";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Welcome />
       <ParentComponent />
       <StateComponent />
+      <ConditionRendering/>
     </div>
   );
 }
