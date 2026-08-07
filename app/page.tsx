@@ -6,6 +6,7 @@ import ParentComponent from "./PropsAndState/ParentComponent/page";
 import StateComponent from "./StateComponent/page";
 import ConditionRendering from "./ConditionRendering/page";
 import Age from "./ConditionRendering/Age/page";
+import ListExample from "./ListExample/Page";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <StateComponent />  
       <ConditionRendering/>
       <Age age={50} />
+      <ListExample />
     </div>
   );
 }
