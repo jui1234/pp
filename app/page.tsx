@@ -7,6 +7,7 @@ import StateComponent from "./StateComponent/page";
 import ConditionRendering from "./ConditionRendering/page";
 import Age from "./ConditionRendering/Age/page";
 import ListExample from "./ListExample/Page";
+import KeyIdenti from "./ListExample/KeyIdenty";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <ConditionRendering/>
       <Age age={50} />
       <ListExample />
+      <KeyIdenti />
     </div>
   );
 }
