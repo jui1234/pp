@@ -26,3 +26,16 @@ export default UseStateComponent;
 // ### 3. What happens when state changes?
 
 // When the state changes, React stores the new state value and re-renders the component. During the re-render, React uses the updated state value and updates the UI.
+
+
+// 4### When does React re-render?
+
+// React re-renders a component when its **state or props change**.
+
+// For example, when we update a state using its setter function:
+
+// ```js
+// setCount(count + 1);
+// ```
+
+// React schedules the component to re-render so that the UI can reflect the updated state.
