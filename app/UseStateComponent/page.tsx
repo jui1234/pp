@@ -12,3 +12,14 @@ const UseStateComponent=()=>{
 }
 export default UseStateComponent;
 //usestate it is a hook that let the component store the data and re=renmder the data wehn compoenet data change 
+
+// ### How `useState()` works
+
+// → First, React renders the component and initializes the state with the initial value.
+
+// → When we update the state using the state setter, React changes the stored state value.
+
+// → React then re-renders the component.
+
+// → During the re-render, `useState()` gives us the updated state value, and React updates the UI with the new value.
+
