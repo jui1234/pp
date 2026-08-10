@@ -23,3 +23,6 @@ export default UseStateComponent;
 
 // → During the re-render, `useState()` gives us the updated state value, and React updates the UI with the new value.
 
+// ### 3. What happens when state changes?
+
+// When the state changes, React stores the new state value and re-renders the component. During the re-render, React uses the updated state value and updates the UI.
