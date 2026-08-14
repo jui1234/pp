@@ -9,6 +9,7 @@ import Age from "./ConditionRendering/Age/page";
 import ListExample from "./ListExample/Page";
 import KeyIdenti from "./ListExample/KeyIdenty";
 import UseStateComponent from "./UseStateComponent/page";
+import UseEffectComponent from "./UseEffectCompoenet/page";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <ListExample />
       <KeyIdenti />
       <UseStateComponent/>
+      <UseEffectComponent />
     </div>
   );
 }
