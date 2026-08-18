@@ -1,27 +1,16 @@
 "use client"
 import { useEffect,useState } from 'react';
-const CountDown =()=>{
-    const [count, setCount] = useState(0);
-    useEffect(()=>{
-         let timer =setInterval(()=>{
-          setCount(prev=>{
-            if(prev===10){
-                clearInterval(timer)
-                return prev;
-            }
-            return prev+1;
-          })
-         },1000)
-
-         return()=>{
-            clearInterval(timer);
-         }
-    },[])
+import CountDown from './CountDown';
+import CountIntervalFun from './CountIntervalFun'
+const CountIntervals =()=>{
     
-
     return(
-        <div>{count}</div>
+        <div>
+           <CountDown/> 
+           <CountIntervalFun/>
+        </div>
     )
 }
 
-export default CountDown;
+
+export default CountIntervals;
