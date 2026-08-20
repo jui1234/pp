@@ -16,11 +16,11 @@ const StartAndStopManuallyTimer=function(){
         clearInterval(timer.current);
     }
 
-    return(<>
-    <h1>{totalSec}</h1>
-    <button onClick={startTimer}>StartTimer</button>
-    <button onClick={stopTimer}>StopTimer</button>
-    </>)
+    return(<div style={{display:'flex',justifyContent:'center'}}>
+    <h1 style={{}}>{totalSec}</h1>
+    <button style={{cursor:'pointer',border:'1px solid black',borderRadius:'2px'}} onClick={startTimer}>StartTimer</button>
+    <button style={{cursor:'pointer',border:'1px solid black',borderRadius:'2px'}} onClick={stopTimer}>StopTimer</button>
+    </div>)
 }
 
 export default StartAndStopManuallyTimer;
