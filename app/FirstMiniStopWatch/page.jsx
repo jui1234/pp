@@ -2,11 +2,19 @@
 import { useState,useEffect, useRef } from "react";
 const FirstMiniStopWatch=function(){
     const [count,setCount]=useState(0);
+    const [startClick,setStartClick]=useState(false);
     let timer=useRef(0);
     let stopFunction=()=>{
                setCount(0);
                clearInterval(timer.current)
+               setStartClick(false);
       }
+
+      let startFunction=()=>{
+        setStartClick(true)
+      }
+
+     
     useEffect(()=>{
        timer.current=setInterval(()=>{
         setCount(prev=>prev+1);
@@ -15,14 +23,15 @@ const FirstMiniStopWatch=function(){
           return()=>{
         clearInterval(timer.current);
     }
-    },[])
+    },[startClick])
     
 
     return(
         <>
         <div>{count} Second
         </div>
-        <button style={{border:'1px solid white',width:'6rem',height:'6rem'}} onClick={stopFunction}>Stop Sec</button>
+         <button style={{border:'1px solid white',width:'6rem',height:'6rem'}} onClick={stopFunction}>Stop Sec</button>
+         <button style={{border:'1px solid white',width:'6rem',height:'6rem'}} onClick={startFunction}>Start Sec</button>
         </>
     )
 }
