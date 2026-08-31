@@ -9,8 +9,8 @@ const userefInterval=function(){
 
     return(
         <>
-        <button onClick={focusFunction}>focus</button>
-        <input style={{border:'1px solid pink'}} ref={UserFocus}></input>
+        <button style={{cursor:'pointer'}} onClick={focusFunction}>focus</button>
+        <input style={{border:'1px solid pink',paddingLeft:'10px'}} ref={UserFocus}></input>
         </>
     )
 }
