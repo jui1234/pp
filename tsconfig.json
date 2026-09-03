@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "app/about", "app/StartAndStopManuallyTimer/page.jsx"  ],
+, "app/about", "app/StartAndStopManuallyTimer/page.jsx", "app/FirstMiniStopWatch/page.jsx"  ],
   "exclude": ["node_modules"]
 }
