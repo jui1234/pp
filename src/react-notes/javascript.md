@@ -21,3 +21,5 @@ function test() {
 }
 
 console.log(age); // ❌
+
+var-------------------
