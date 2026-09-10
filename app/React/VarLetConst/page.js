@@ -15,13 +15,17 @@ let name='jui';
 console.log(name)
 name='ram';
 console.log(name)
+}
 
-
-
+const myconst=function(){
+    // console.log(name);//its is not hoisted the declartion (this line will give refrence error)
+const name='jui';
+// name='ram';//this line will give type error because const variable can not be reassigned
+console.log(name)
 }
 
 export {
-myvar,mylet
+myvar,mylet,myconst
 };
 
 
