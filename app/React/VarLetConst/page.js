@@ -9,7 +9,27 @@ name='sita';
 console.log(name)
 }
 
+const mylet=function(){
+    // console.log(name);//its is not hoisted the declartion (this line will give refrence error)
+let name='jui';
+console.log(name)
+name='ram';
+console.log(name)
 
 
 
-export default myvar;
+}
+
+export {
+myvar,mylet
+};
+
+
+const Mainvarfunction=function(){
+    console.log("Mainvarfunction");
+    myvar();
+    console.log("Mainletfunction");
+    mylet();
+}
+
+export default Mainvarfunction;
