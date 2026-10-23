@@ -28,7 +28,8 @@ const FirstMiniStopWatch=function(){
 
     return(
         <>
-        <div>{count} Second
+        <div>{count} 
+          
         </div>
          <button style={{border:'1px solid white',width:'6rem',height:'6rem'}} onClick={stopFunction}>Stop Sec</button>
          <button style={{border:'1px solid white',width:'6rem',height:'6rem'}} onClick={startFunction}>Start Sec</button>
