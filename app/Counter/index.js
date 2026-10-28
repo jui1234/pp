@@ -1,7 +1,7 @@
-import {usestate} from 'react';
+import {useState} from 'react';
 
 function Counter(){
-    const [count,setCount]=usestate(0);
+    const [count,setCount]=useState(0);
 
     const Inrement=()=>{
          setCount(prev=>prev+1)
