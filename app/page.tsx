@@ -12,6 +12,7 @@ import UseStateComponent from "./UseStateComponent/page";
 import UseEffectComponent from "./UseEffectCompoenet/page";
 import setIntervalPage from "./SetInterval/page";
 import SetIntervalPage from "./SetInterval/page";
+import Parent from "../src/Jsnote/Parent";
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <UseStateComponent/>
       <UseEffectComponent />
       <SetIntervalPage />
+      {/* <Parent /> */}
     </div>
   );
 }
