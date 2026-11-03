@@ -13,6 +13,7 @@ import UseEffectComponent from "./UseEffectCompoenet/page";
 import setIntervalPage from "./SetInterval/page";
 import SetIntervalPage from "./SetInterval/page";
 import MyVar from "./React/Var/page";
+import MyLet from "./React/Let/page";
 
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
       <UseEffectComponent />
       <SetIntervalPage />
       <MyVar />
+      <MyLet />
       {/* <Parent /> */}
     </div>
   );
