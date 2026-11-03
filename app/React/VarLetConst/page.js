@@ -29,6 +29,9 @@ myvar,mylet,myconst
 };
 
 
+
+
+
 const Mainvarfunction=function(){
     console.log("Mainvarfunction");
     myvar();
